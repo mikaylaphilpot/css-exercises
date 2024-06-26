@@ -5,11 +5,20 @@ body {
 img {
   width: 100px;
   height: 100px;
+  display:flex;
+}
+.text {
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  display:flex;
+  justify-content: center;
+  margin-bottom: 32px;
 }
 
 /* do not edit this footer */
@@ -23,4 +32,23 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+.container {
+  display:flex;
+  justify-content: center;
+  gap: 52px;
+}
+.info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 200px;
+
+}
+.text {
+  display: flex;
+
+}
+body {
+  text-align: center;
 }
